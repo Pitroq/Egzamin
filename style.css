@@ -140,6 +140,8 @@ thead{
 .gallery-item{
     display: block;
     margin: 40px auto;
+    max-width: 90%; 
+    height: auto;
 }
 .gallery-item:hover{
     cursor: pointer;
@@ -157,8 +159,9 @@ thead{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    height: 50%;
+    margin-top: 200px;
+    max-width: 90%; 
+    height: auto;
 }
 .gallery-bigger-item:hover{
     cursor: pointer;
