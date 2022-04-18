@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stacja paliw</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <div class="baner-lewy">
+        <h1>Stacja Paliw</h1>
+    </div>
+    <div class="baner-prawy">
+        <a href="stacja.html"><img src="home.png"></a> 
+        <a href="obliczenia.html"><img src="znak.png"></a>
+    </div>
+    <article>
+        <h3>Oblicz koszt paliwa</h3>
+        Rodzaj paliwa (1-benzyna, 2-olej napędowy): <br>
+        <input id="rodzaj" type="number"><br>
+        Ile litrów: <br>
+        <input id="litry" type="number"><br>
+        <input type="button" onClick="oblicz();" value="OBLICZ">
+        <span id="wynik"></span>
+    </article>
+    <div class="blok-lewy"> 
+        <a href="obliczenia.html">Pobierz kwerendy</a> 
+    </div>
+    <div class="blok-prawy">
+        <img src="samochod.png" alt="samochód">
+    </div>
+    <footer><p>Stronę opracował: XXX</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

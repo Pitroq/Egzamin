@@ -1,0 +1,59 @@
+body{
+    font-family: 'Helvetica';
+    padding: 0;
+    margin: 0;
+}
+.baner-lewy{
+    background-color:  rgb(130, 69, 85);
+    color: #FFF;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+.blok-lewy{
+    background-color:  rgb(130, 69, 85);
+    color: #FFF;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+.baner-prawy{
+    background-color:  rgb(130, 69, 85);
+    color: #FFF;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: right;
+}
+.blok-prawy{
+    background-color:  rgb(130, 69, 85);
+    color: #FFF;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: right;
+}
+
+article, footer{
+    background-color:  rgb(240, 234, 226);
+    padding: 120px;
+    float: none;
+}
+
+a{
+    color: rgb(240, 234, 226);
+}
+
+table{
+    border: rgb(130, 69, 85) solid 1px;
+    color: rgb(130, 69, 85);
+    padding: 10px;
+}
+td{
+    border: rgb(130, 69, 85) solid 1px;
+    color: rgb(130, 69, 85);
+    padding: 10px;
+}
