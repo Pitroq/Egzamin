@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../prism.css">
+    <script type="text/javascript" src="../prism.js"></script>
+    <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('.left-nav').load("nav-include.html");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../sql/index.html" class="light-link header-nav-link" style="text-decoration: underline;">SQL</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
+            <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
+        </nav>
+    </header>
+
+    <nav class="left-nav"></nav>
+    <article>
+        <p style="font-size: 45px; text-align: center;">WHERE</p>
+        <p>Klauzula WHERE służy do filtrowania rekordów / stawiania warunków.</p>
+        <p>Składnia:</p>
+        <pre><code class="language-sql">SELECT kolumna1, kolumna2
+FROM tabela
+WHERE warunek;</code></pre>
+        <img class="gallery-item" src="img/where1.png" height="400" onClick="bigger('img/where1.png');">
+        <p>Możemy tworzyć przeczenia dzięki operatorowi NOT</p>
+        <img class="gallery-item" src="img/where4.png" height="400" onClick="bigger('img/where4.png');">
+        <p>Zapytanie zwróciło nam tablice z danych NIE spełniającymi warunek.</p>
+        <hr>
+        <p>Można łączyć warunki za pomocą operatorów AND i OR <br><br>
+            AND - i <br>
+            OR - lub <br>
+        </p>
+        <img class="gallery-item" src="img/where2.png" height="300" onClick="bigger('img/where2.png');">
+        <p>Teraz zapytanie zwróciło nam tablice z danych spełniające oba warunki, dzięki operatorowi "AND".</p>
+        <hr>
+        <img class="gallery-item" src="img/where3.png" height="400" onClick="bigger('img/where3.png');">
+        <p>To zapytanie zwróciło nam tablice z danych spełniające jeden z warunków, dzięki operatorowi "OR".</p>
+    </article>
+    <footer></footer>
+</body>
+</html>

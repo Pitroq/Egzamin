@@ -1,0 +1,89 @@
+INF.03
+
+https://www.testy.egzaminzawodowy.info/technik-programista
+https://www.testy.egzaminzawodowy.info/kwalifikacja-inf3-arkusze
+https://egzamin-informatyk.pl/arkusze-praktyczne-inf03-ee09-e14-programowanie-bazy-danych/
+https://www.praktycznyegzamin.pl/inf03ee09e14/praktyka/
+
+funkcja w js ktora zmienia diva w menu na hover, porownuje naglowek i liste po lewo w nav
+zmienic wysokosc img na %
+SQL:
+	phpmyadmin
+		export
+		import
+		sprawdzanie czy faktycznie np. dodano uzytkownika
+
+	+SELECT
+	+WHERE
+	+JOINY
+	+bez powtorzen - DISTINCT
+	+ORDER BY
+	+LIMIT 1 (1 jest przykladem)
+	+zliczanie rekordów - COUNT
+
+	+LIKE
+	+INSERT
+	+UPDATE
+
+
+	SUM/ AVG odejmowanie itd
+	
+	dodawanie/tworzenie uzytkownika
+	nadawanie uprawnien uzytkownikowi
+	ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
+
+	
+	
+JS:
+	pobieranie wartosci z róznych inputów
+		po id
+		po tagu
+		itd.
+	wypisywanie/dopisywanie tekstu
+	alerty probty
+	parse int
+	is nan
+
+	proste warunki 
+PHP:
+	post
+	get
+
+	connect/close
+	query
+	fetch
+	foreach/while
+
+	proste warunki 
+	wyjasnic tablice assocjacyjne
+EGZAMIN:
+	linki do pobierania egzaminow
+	wstawic screeny z egzaminu z informacjami o funkcjach
+
+	jakas lista z wskazówkami
+		zeby zapisywac kwerendy w '' a nie w "" bo jezeli bedzie php bedzu latwiej kleic do php 
+
+HTML
+	listy
+	tabele
+	radio buttony
+
+CSS:
+	font-family
+	height
+	width
+	background-color
+	floaty
+	color (font)
+	border
+	margin
+	padding
+	text-align
+	font-size
+
+	podawanie roznych kolorow (hex, rgb)
+
+Zapytać
+	czy trzeba sprawdzac inputy jezeli nie pisze w poleceniu - NIE
+	czy trzeba/mozna pisac inputy w <form> - LEPIEJ TAK
+	czy w php trzeba dac isset zeby nie bylo "brudów" na stronie - TAK, ale to mowil frost wiec nie wiadomo

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../prism.css">
+    <script type="text/javascript" src="../prism.js"></script>
+    <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('.left-nav').load("nav-include.html");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../sql/index.html" class="light-link header-nav-link" style="text-decoration: underline;">SQL</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
+            <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
+        </nav>
+    </header>
+
+    <nav class="left-nav"></nav>
+    <article>
+        <p style="font-size: 45px; text-align: center;">LIKE</p>
+        <p>Operator LIKE jest używany do wyszukiwania danego patternu.</p>
+        <p>Składnia:</p>
+        <pre><code class="language-sql">SELECT (...)
+WHERE tablice LIKE "%a%"</code></pre>
+        <p>
+            Znakiem procentu (%) określamy jakikolwiek ciag znaków np. <br><br>
+            Jeżeli chcemy aby wartość danej kolumny zaczynała się na literę 'a' pattern powinien wyglądać w ten sposób --> 'a%' <br> 
+            Jeżeli chcemy aby wartość danej kolumny kończyła się na literę 'b' pattern powinien wyglądać w ten sposób --> '%b' <br> 
+            Jeżeli chcemy aby wartość danej kolumny miała w środku literę 'c' pattern powinien wyglądać w ten sposób --> '%c%' <br> 
+            <b>Wielkość liter nie ma znaczenia!</b> <br> 
+        </p>
+        <img class="gallery-item" src="img/like1.png" height="400" onClick="bigger('img/like1.png');">
+        <img class="gallery-item" src="img/like2.png" height="400" onClick="bigger('img/like2.png');">
+        <p>
+            Znakiem podłogi (_) określamy 1 znak np. <br><br>
+            Jeżeli chcemy aby 2 znak wartości danej kolumny był równy 'a' pattern powinien wyglądać w ten sposób --> '_a%'  <br> 
+            Jeżeli chcemy aby 3 znak od tyłu wartości danej kolumny był równy 'b' pattern powinien wyglądać w ten sposób --> '%b__'  <br> 
+            <b>Wielkość liter nie ma znaczenia!</b> <br> 
+        </p>
+        <img class="gallery-item" src="img/like3.png" height="400" onClick="bigger('img/like3.png');">
+
+    </article>
+    <footer></footer>
+</body>
+</html>
