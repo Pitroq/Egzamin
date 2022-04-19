@@ -27,16 +27,14 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="font-size: 45px; text-align: center;">UPDATE</p>
-        <p>Instrukcja UPDATE służy do zmieniania wartości.</p>
+        <p style="font-size: 45px; text-align: center;">CREATE USER</p>
         <p>Składnia:</p>
-        <pre><code class="language-sql">UPDATE tabela 
-SET kolumna1=wartosc1, kolumna2=wartosc2 
-WHERE kolumna=warunek;</code></pre>
-        <p><b>Jeżeli nie napiszemy klauzuli WHERE to wartości zostanie zmieniona wszędzie!</b></p>
-        <img class="gallery-item" src="img/update1.png" onClick="bigger('img/update1.png');">
-        <img class="gallery-item" src="img/update2.png" onClick="bigger('img/update2.png');">
-
+        <pre><code class="language-sql">CREATE USER 'nazwa_uzytkownika'@'host' IDENTIFIED BY 'haslo';</code></pre>
+        <p>Instrukcja CREATE USER służy do dodawania nowego użytkownika do serwera MySQL. Piszemy CREATE USER 'nazwe_użytkownika', @ a następnie 'nazwe_ hosta'. Trzeba jeszcze nadać hasło, którym użytkownik będzie sie logował do serwera, więc IDENTIFIED BY 'nasze haslo';</p>
+        <p>Najlepiej dodać użytkownika z poziomu serwera (nie wybierając żadnej bazy danych).</p>
+        <img class="gallery-item" src="img/create_user1.png" onClick="bigger('img/create_user1.png');">
+        <p>Jeżeli wejdziemy w <i>Konta użytkowników</i> zobaczymy listę użytkowników, możemy sprawdzić czy zapytanie zostało dobrze wysłane.</p>
+        <img class="gallery-item" src="img/create_user2.png" onClick="bigger('img/create_user2.png');">
     </article>
     <footer></footer>
 </body>

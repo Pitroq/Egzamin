@@ -26,6 +26,10 @@ SQL:
 	+UPDATE
 
 
+	dodawanie/tworzenie uzytkownika
+	nadawanie uprawnien uzytkownikowi
+	ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
+
 	SUM/ AVG odejmowanie itd
 	
 	dodawanie/tworzenie uzytkownika
@@ -86,4 +90,4 @@ CSS:
 Zapytać
 	czy trzeba sprawdzac inputy jezeli nie pisze w poleceniu - NIE
 	czy trzeba/mozna pisac inputy w <form> - LEPIEJ TAK
-	czy w php trzeba dac isset zeby nie bylo "brudów" na stronie - TAK, ale to mowil frost wiec nie wiadomo
+	czy w php trzeba dac isset zeby nie bylo "brudów" na stronie - TAK

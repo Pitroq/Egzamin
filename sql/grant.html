@@ -27,16 +27,15 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="font-size: 45px; text-align: center;">UPDATE</p>
-        <p>Instrukcja UPDATE służy do zmieniania wartości.</p>
+        <p style="font-size: 45px; text-align: center;">GRANT</p>
         <p>Składnia:</p>
-        <pre><code class="language-sql">UPDATE tabela 
-SET kolumna1=wartosc1, kolumna2=wartosc2 
-WHERE kolumna=warunek;</code></pre>
-        <p><b>Jeżeli nie napiszemy klauzuli WHERE to wartości zostanie zmieniona wszędzie!</b></p>
-        <img class="gallery-item" src="img/update1.png" onClick="bigger('img/update1.png');">
-        <img class="gallery-item" src="img/update2.png" onClick="bigger('img/update2.png');">
-
+        <pre><code class="language-sql">GRANT uprawnienia ON tabela1, tabela2 TO 'nazwa_uzytkownika'@'host';</code></pre>
+        <p>Instrukcja GRANT służy do nadawania uprawnień użytkownikowi. Zapytanie wykonujemy z poziomu bazy danych do ktorej chcemy dodac uprawnienia.</p>
+        <p>Uprawnienia: (wypisac kjtore do czego)</p>
+        <p>Jeżeli chcemy dać uprawnienia do jakiejś tabeli:</p>
+        <img class="gallery-item" src="img/grant1.png" onClick="bigger('img/grant1.png');">
+        <p>Jeżeli chcemy dać uprawnienia do wszystkich tabel łatwiej będzie użyć gwiazdki (*):</p>
+        <img class="gallery-item" src="img/grant2.png" onClick="bigger('img/grant2.png');">
     </article>
     <footer></footer>
 </body>
