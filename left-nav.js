@@ -1,4 +1,5 @@
-function sleep (time) {
+function sleep (time){
+    // milisecond time
     return new Promise((resolve) => setTimeout(resolve, time));
 }       
 

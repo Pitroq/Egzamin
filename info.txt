@@ -6,10 +6,6 @@ https://egzamin-informatyk.pl/arkusze-praktyczne-inf03-ee09-e14-programowanie-ba
 https://www.praktycznyegzamin.pl/inf03ee09e14/praktyka/
 
 SQL:
-	phpmyadmin
-		export
-		import
-
 	+SELECT
 	+WHERE
 	+JOINY
@@ -24,34 +20,43 @@ SQL:
 	+nadawanie uprawnien uzytkownikowi
 	+ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
 
-	AVG
-	SUM
-	MIN
-	MAX	
+	+AVG
+	+SUM
+	+MIN
+	+MAX	
 	
 	
+
+PHP:
+	+zmienne
+	+warunki 
+	+petle
+
+	post/get
+
+	connect/close
+	query
+	fetch
+	foreach/while - wyjasnic tablice assocjacyjne
+
+
+	
+
+
 JS:
+	zmienne
+	warunki 
+	petle
+
+
 	pobieranie wartosci z róznych inputów
 		po id
 		po tagu
 		itd.
 	wypisywanie/dopisywanie tekstu
-	alerty probty
+	alert/console.log
 	parse int
-	is nan
 
-	proste warunki 
-PHP:
-	post
-	get
-
-	connect/close
-	query
-	fetch
-	foreach/while
-
-	proste warunki 
-	wyjasnic tablice assocjacyjne
 EGZAMIN:
 	linki do pobierania egzaminow
 	wstawic screeny z egzaminu z informacjami o funkcjach

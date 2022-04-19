@@ -21,7 +21,7 @@ article{
     width: calc(100% - 150px);
     float: left;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 20px 50px;
     color: #010305;
 }
 article > p{
@@ -71,6 +71,7 @@ article > p{
     line-height: 40px;
     border-bottom: 2px solid #eeeeee;
     box-sizing: border-box;
+    font-size: 18px;
 }
 .left-nav-link-a:hover{
     text-decoration: none !important; 

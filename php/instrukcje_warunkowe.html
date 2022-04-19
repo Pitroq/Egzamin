@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../prism.css">
+    <script type="text/javascript" src="../prism.js"></script>
+    <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../left-nav.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('.left-nav').load("nav-include.html");
+        });
+    </script>
+</head>
+<body onLoad="check_nav();">
+    <header>
+        <nav class="header-nav">
+            <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../sql/index.html" class="light-link header-nav-link">SQL</a>
+            <a href="../php/index.html" class="light-link header-nav-link" style="text-decoration: underline;">PHP</a>
+            <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
+        </nav>
+    </header>
+
+    <nav class="left-nav"></nav>
+    <article>
+        <p style="font-size: 45px; text-align: center;" id="article-header">Instrukcje warunkowe</p>
+        <p>Instrukcji warunkowej używa się do podjęcia decyzji, jeżeli warunek zwróci wartość <i>True</i> (będzie prawdą) wykona się kod</p>
+        <p>Składnia prostego warunku:</p>
+        <pre><code class="language-php">if($a == $b){
+    // akcja
+}</code></pre>
+        <p>Składnia kilku warunków:</p>
+        <pre><code class="language-php">if($a == 1){
+    // akcja1
+}
+else if($a == 3){
+    // akcja2
+}
+else if($a == 3){
+    // akcja3
+}
+else{
+    // akcja4
+}</code></pre>
+        <p>else if - w przeciwnym wypadku jeżeli. Warunek zostanie sprawdzony jeżeli wcześniejsze warunki przyjeły wartość false.</p>
+        <p>else - w przeciwnym wypadku. Ta część kodu wykona się jeżeli wcześniejsze warunki przyjeły wartość false.</p>
+        <!-- operatory porównania -->
+        <p>Operatory porównania:</p>
+        <ul>
+            <li>== - równe</li><br>
+            <li>=== - identyczne</li><br>
+            <li>!= - nie równe</li><br>
+            <li>!=== - nie identyczne</li><br>
+            <li>< - mniejsze</li><br>
+            <li><= - mniejsze lub równe</li><br>
+            <li>> - większe</li><br>
+            <li>>= - większe lub równe</li><br>
+        </ul>
+        <p>Przykład warunków: </p>
+        <pre><code class="language-php">if($a == 1){
+    echo "zmienna a jest równa 1";
+}
+else if($a == 2){
+    echo "zmienna a jest równa 2";
+}
+else{
+    echo "zmienna a nie jest równa ani 1, ani 2";
+}</code></pre>
+        <p>Jeżeli nasz kod jest jedno liniowy nie musimy pisać klamr { }.</p>
+        <pre><code class="language-php">if($a > $b) echo "zmienna a jest większa od zmiennej b";
+else if($a < $b)echo "zmienna a jest mniejsza od zmiennej b";</code></pre>
+
+    </article>
+    <footer></footer>
+</body>
+</html>
