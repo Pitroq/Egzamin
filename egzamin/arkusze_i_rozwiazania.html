@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Egzamin</title>
     <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../left-nav.js"></script>
     <script type="text/javascript" src="../jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -11,7 +12,7 @@
         });
     </script>
 </head>
-<body>
+<body onLoad="check_nav();">
     <header>
         <nav class="header-nav">
             <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
@@ -24,7 +25,7 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="text-align: center; font-size: 30px;">Arkusze i rozwiazania</p>
+        <p style="text-align: center; font-size: 30px;" id="article-header">Arkusze i rozwiazania</p>
         <table style="font-size: 20px; margin: 50px auto;">
             <thead>
                 <tr>
