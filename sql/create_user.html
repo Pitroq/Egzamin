@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../prism.css">
     <script type="text/javascript" src="../prism.js"></script>
     <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../left-nav.js"></script>
     <script type="text/javascript" src="../jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -14,7 +15,7 @@
         });
     </script>
 </head>
-<body>
+<body onLoad="check_nav();">
     <header>
         <nav class="header-nav">
             <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
@@ -27,7 +28,7 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="font-size: 45px; text-align: center;">CREATE USER</p>
+        <p style="font-size: 45px; text-align: center;" id="article-header">CREATE USER</p>
         <p>Składnia:</p>
         <pre><code class="language-sql">CREATE USER 'nazwa_uzytkownika'@'host' IDENTIFIED BY 'haslo';</code></pre>
         <p>Instrukcja CREATE USER służy do dodawania nowego użytkownika do serwera MySQL. Piszemy CREATE USER 'nazwe_użytkownika', @ a następnie 'nazwe_ hosta'. Trzeba jeszcze nadać hasło, którym użytkownik będzie sie logował do serwera, więc IDENTIFIED BY 'nasze haslo';</p>

@@ -5,13 +5,10 @@ https://www.testy.egzaminzawodowy.info/kwalifikacja-inf3-arkusze
 https://egzamin-informatyk.pl/arkusze-praktyczne-inf03-ee09-e14-programowanie-bazy-danych/
 https://www.praktycznyegzamin.pl/inf03ee09e14/praktyka/
 
-funkcja w js ktora zmienia diva w menu na hover, porownuje naglowek i liste po lewo w nav
-zmienic wysokosc img na %
 SQL:
 	phpmyadmin
 		export
 		import
-		sprawdzanie czy faktycznie np. dodano uzytkownika
 
 	+SELECT
 	+WHERE
@@ -20,22 +17,17 @@ SQL:
 	+ORDER BY
 	+LIMIT 1 (1 jest przykladem)
 	+zliczanie rekordów - COUNT
-
 	+LIKE
 	+INSERT
 	+UPDATE
+	+dodawanie/tworzenie uzytkownika
+	+nadawanie uprawnien uzytkownikowi
+	+ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
 
-
-	dodawanie/tworzenie uzytkownika
-	nadawanie uprawnien uzytkownikowi
-	ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
-
-	SUM/ AVG odejmowanie itd
-	
-	dodawanie/tworzenie uzytkownika
-	nadawanie uprawnien uzytkownikowi
-	ktore uprawnienia pozwalaja na esytowanie/usuwanie itp.
-
+	AVG
+	SUM
+	MIN
+	MAX	
 	
 	
 JS:

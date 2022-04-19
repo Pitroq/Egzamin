@@ -22,7 +22,7 @@ article{
     float: left;
     box-sizing: border-box;
     padding: 20px;
-    color: #212529;
+    color: #010305;
 }
 article > p{
     font-size: 22px;
@@ -58,7 +58,7 @@ article > p{
     background-color: #FFF;
     width: 150px;
     float: left;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     box-sizing: border-box;
     clear: both;
 }
@@ -73,8 +73,6 @@ article > p{
     box-sizing: border-box;
 }
 .left-nav-link-a:hover{
-    /* background-color: #217dff;
-    color: white; */
     text-decoration: none !important; 
     background-color: #eeeeee;
 }

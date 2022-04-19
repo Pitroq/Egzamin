@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../prism.css">
     <script type="text/javascript" src="../prism.js"></script>
     <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../left-nav.js"></script>
     <script type="text/javascript" src="../jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -14,7 +15,7 @@
         });
     </script>
 </head>
-<body>
+<body onLoad="check_nav();">
     <header>
         <nav class="header-nav">
             <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
@@ -27,13 +28,13 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="font-size: 45px; text-align: center;">COUNT()</p>
+        <p style="font-size: 45px; text-align: center;" id="article-header">COUNT()</p>
         <p>Funkcja COUNT() zlicza wszystkie rekordy</p>
         <p>Składnia:</p>
         <pre><code class="language-sql">SELECT COUNT(*) AS nazwa (...);</code></pre>
-        <p>Jeżeli użyjemy tej funkcji nie możemy już dać nazwa tabel po SELECT. W argumencie funkcji najlepiej dać " * ". AS (...) pozwala nam na nadawanie nazwy kolumny w jakiej bedzie widoczny wynik ten funkcji, jednak nie jest potrzebna do poprawnego zadziałania zapytania.</p>
-    <img class="gallery-item" src="img/count1.png" onClick="bigger('img/count1.png');">
-    <img class="gallery-item" src="img/count2.png" onClick="bigger('img/count2.png');">
+        <p>Jeżeli użyjemy tej funkcji nie możemy już dać nazw tabel po SELECT. W argumencie funkcji najlepiej dać " * ". AS (...) pozwala nam na nadawanie nazwy kolumny w jakiej bedzie widoczny wynik ten funkcji, jednak nie jest potrzebny do poprawnego zadziałania zapytania.</p>
+        <img class="gallery-item" src="img/count1.png" onClick="bigger('img/count1.png');">
+        <img class="gallery-item" src="img/count2.png" onClick="bigger('img/count2.png');">
     </article>
     <footer></footer>
 </body>

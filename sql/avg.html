@@ -28,26 +28,13 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="font-size: 45px; text-align: center;" id="article-header">WHERE</p>
-        <p>Klauzula WHERE służy do filtrowania rekordów / stawiania warunków.</p>
+        <p style="font-size: 45px; text-align: center;" id="article-header">AVG()</p>
+        <p>Funkcja AVG() zwraca średnią arytmetyczna wartości z danej kolumny.</p>
         <p>Składnia:</p>
-        <pre><code class="language-sql">SELECT kolumna1, kolumna2
-FROM tabela
-WHERE warunek;</code></pre>
-        <img class="gallery-item" src="img/where1.png" onClick="bigger('img/where1.png');">
-        <p>Możemy tworzyć przeczenia dzięki operatorowi NOT</p>
-        <img class="gallery-item" src="img/where4.png" onClick="bigger('img/where4.png');">
-        <p>Zapytanie zwróciło nam tablice z danych NIE spełniającymi warunek.</p>
-        <hr>
-        <p>Można łączyć warunki za pomocą operatorów AND i OR <br><br>
-            AND - i <br>
-            OR - lub <br>
-        </p>
-        <img class="gallery-item" src="img/where2.png" onClick="bigger('img/where2.png');">
-        <p>Teraz zapytanie zwróciło nam tablice z danych spełniające oba warunki, dzięki operatorowi "AND".</p>
-        <hr>
-        <img class="gallery-item" src="img/where3.png" onClick="bigger('img/where3.png');">
-        <p>To zapytanie zwróciło nam tablice z danych spełniające jeden z warunków, dzięki operatorowi "OR".</p>
+        <pre><code class="language-sql">SELECT AVG(tabela) AS nazwa (...);</code></pre>
+        <p>Jeżeli użyjemy tej funkcji nie możemy już dać nazw tabel po SELECT. AS (...) pozwala nam na nadawanie nazwy kolumny w jakiej bedzie widoczny wynik ten funkcji, jednak nie jest potrzebny do poprawnego zadziałania zapytania.</p>
+        <img class="gallery-item" src="img/avg1.png" onClick="bigger('img/avg1.png');">
+
     </article>
     <footer></footer>
 </body>
