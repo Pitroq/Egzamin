@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+.banner1{
+    background-color: #483D8B;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+.banner2{
+    background-color: #483D8B;
+    color: white;
+    height: 150px;
+    width: 70%;
+    float: left;
+}
+.dzien{
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    margin: 3px;
+    border: black 1px solid;
+    float: left;
+}
+article{
+    float: left;
+}
+footer{
+    background-color: #483D8B;
+    padding: 10px;
+    color: white;
+    float: left;
+    width: 100%;
+}
+h5{
+    text-align: center;
+}

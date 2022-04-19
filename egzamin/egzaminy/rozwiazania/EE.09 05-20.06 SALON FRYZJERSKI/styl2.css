@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Helvetica';
+}
+.lewy-blok1{
+    width: 70%;
+    height: 400px;
+    background-color: snow;
+    text-align: center;
+    float: left;
+}
+.lewy-blok2{
+    width: 70%;
+    height: 400px;
+    background-color: snow;
+    font-size: 150%;
+    float: left;
+}
+
+.prawy-blok1{
+    width: 30%;
+    height: 150px;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    float: right;
+}
+.prawy-blok2{
+    width: 30%;
+    height: 350px;
+    background-color: steelblue;
+    color: white;
+    float: right;
+}
+.prawy-blok3{
+    width: 30%;
+    height: 300px;
+    background-color: Snow;
+    text-align: center;
+    float: right;
+}
+footer{
+    color: white;
+    background-color: steelblue;
+    width: 100%;
+}
+h2{
+    font-size: 250%;
+}
+img{
+    padding: 4px;
+}
+img:hover{
+    padding: 3px;
+    border: solid 1px steelblue ;
+}
