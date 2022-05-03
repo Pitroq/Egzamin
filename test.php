@@ -1,8 +1,9 @@
 <?php
-    $i = 0;
-    while($i < 10){
-        echo $i."-";
-        $i += 1;
+    $connect = mysqli_connect('localhost', 'root', '', 'forum');
+    $query = mysqli_query($connect, "SELECT tresc FROM pytania;");
+    
+    while($result = mysqli_fetch_assoc($query)){
+        echo $result['tresc']."<br>";
     }
-
+    mysqli_close($connect);
 ?>

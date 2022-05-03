@@ -32,18 +32,19 @@ PHP:
 	+warunki 
 	+petle
 
-	post/get
+	+post/get
 
-	connect/close
-	query
-	fetch
-	foreach/while - wyjasnic tablice assocjacyjne
+	+connect/close
+	+query
+	+fetch - foreach/while - wyjasnic tablice assocjacyjne
+
 
 
 	
 
 
 JS:
+	podpinanie pliku
 	zmienne
 	warunki 
 	petle
@@ -57,12 +58,14 @@ JS:
 	alert/console.log
 	parse int
 
+	
+
 EGZAMIN:
 	linki do pobierania egzaminow
 	wstawic screeny z egzaminu z informacjami o funkcjach
 
 	jakas lista z wskazówkami
-		zeby zapisywac kwerendy w '' a nie w "" bo jezeli bedzie php bedzu latwiej kleic do php 
+		
 
 HTML
 	listy
@@ -85,6 +88,6 @@ CSS:
 	podawanie roznych kolorow (hex, rgb)
 
 Zapytać
-	czy trzeba sprawdzac inputy jezeli nie pisze w poleceniu - NIE
-	czy trzeba/mozna pisac inputy w <form> - LEPIEJ TAK
+	czy w js trzeba sprawdzac inputy jezeli nie jest napisane w poleceniu - NIE, ponieważ to blad uzytkownika ze zle podal wartosci
+	czy w js trzeba/mozna pisac inputy w <form> - LEPIEJ TAK
 	czy w php trzeba dac isset zeby nie bylo "brudów" na stronie - TAK

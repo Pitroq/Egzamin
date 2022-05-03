@@ -71,6 +71,18 @@ else if($a == 2){
 else{
     echo "zmienna a nie jest równa ani 1, ani 2";
 }</code></pre>
+        <p>
+            Możemy łączyć wiele warunków w jeden.<br><br>
+            AND, && - i<br>
+            OR, || - lub<br>
+        </p>
+<pre><code class="language-php">if ($a > 0 && $a < 10){
+        echo "zmienna a jest większa od 0 i mniejsza od 10";
+    }</code></pre>
+
+<pre><code class="language-php">if ($a == 4 OR $a == 65){
+        echo "zmienna a równa 4 lub 65";
+    }</code></pre>
         <p>Jeżeli nasz kod jest jedno liniowy nie musimy pisać klamr { }.</p>
         <pre><code class="language-php">if($a > $b) echo "zmienna a jest większa od zmiennej b";
 else if($a < $b)echo "zmienna a jest mniejsza od zmiennej b";</code></pre>
