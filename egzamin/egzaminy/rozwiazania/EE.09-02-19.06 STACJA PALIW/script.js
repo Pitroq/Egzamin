@@ -8,6 +8,4 @@ function oblicz() {
 
     document.getElementById("wynik").innerHTML = ("<br>koszt paliwa: " + litry * koszt + "zł");
         
-    
-    
 }

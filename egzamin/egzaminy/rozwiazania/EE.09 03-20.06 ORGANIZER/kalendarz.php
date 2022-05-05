@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $connect = mysqli_connect('localhost', 'root', '', 'egz-egzamin5');  
+        $connect = mysqli_connect('localhost', 'root', '', 'egz-egzamin05');  
     ?>
     <div class="banner1">
         <img src="logo1.png" alt="Mój kalendarz">
@@ -46,7 +46,7 @@
             <p>Stronę wykonał: XXX</p>
         </form>
         <?php
-            $query3 = mysqli_query($connect, "UPDATE zadania SET wpis = '{$_POST['text1']}' WHERE dataZadania = '2020-07-13';");
+        if(isset($_POST['text1'])) $query3 = mysqli_query($connect, "UPDATE zadania SET wpis = '{$_POST['text1']}' WHERE dataZadania = '2020-07-13';");
         ?>
     </footer>
     <?php
