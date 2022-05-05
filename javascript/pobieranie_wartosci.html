@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../prism.css">
+    <script type="text/javascript" src="../prism.js"></script>
+    <script type="text/javascript" src="../gallery.js"></script>
+    <script type="text/javascript" src="../left-nav.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('.left-nav').load("nav-include.html");
+        });
+    </script>
+</head>
+<body onLoad="check_nav();">
+    <header>
+        <nav class="header-nav">
+            <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link" style="text-decoration: underline;">JavaScript</a>
+            <a href="../sql/index.html" class="light-link header-nav-link">SQL</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
+            <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
+        </nav>
+    </header>
+
+    <nav class="left-nav"></nav>
+    <article>
+        <p style="font-size: 45px; text-align: center;" id="article-header">Pobieranie wartości</p>
+        <p>Aby pobrać wartość z inputu należy użyć funkcji document.getElementById() (id nadajemy w HTML) i następnie odnieść się do atrybutu <i>value</i>. Ta funkcja szuka nam elementu o jakimś identyfikatorze, więc na jednej stronie <b>id nie może sie powtarzać</b></p>
+        <p>Składnia :</p>
+        <pre><code class="language-js">document.getElementById("naszeId").value;</code></pre>
+        <p>Jeżeli chcemy pobrać liczbę to powinniśmy przepuścić naszą wartość przez funkcje parseInt(), która zamienia tekst na liczbę.</p>
+        <pre><code class="language-js">var wiek = document.getElementById("wiek").value;
+wiek = parseInt(wiek);
+
+// lub
+
+var wiek = parseInt(document.getElementById("wiek").value);
+</code></pre>
+    <br>
+    <p>Przykład funkcji z pobieraniem danych: </p>
+    <pre><code class="language-html">&lt;script&gt;
+    function przeslijDane(){
+        var imie = document.getElementById("imie").value;
+        var wiek = document.getElementById("wiek").value;
+        wiek = parseInt(wiek);
+
+        console.log("Witaj ",imie,", masz ", wiek, "lat.");
+    }
+&lt;/script&gt;
+
+Podaj swoje imie: &lt;input type="text" id="imie"&gt;&lt;br&gt;&lt;br&gt;
+Podaj swój wiek: &lt;input type="number" id="wiek"&gt;&lt;br&gt;&lt;br&gt;
+&lt;input type="button" value="Prześlij dane" onClick="przeslijDane()"&gt;</code></pre>
+    <br>
+    <p>Pobieranie wartości z <i>radio button</i></p>
+    <pre><code class="language-html">&lt;script>
+    function przeslijDane(){
+        if(document.getElementById("mezczyzna").checked) console.log("jestes mężczyzną");
+        else if(document.getElementById("kobieta").checked) console.log("jestes kobietą");
+        else console.log("nie wybrałeś swojej płci!");
+    }
+&lt;/script>
+
+&lt;p>Jaka jest twoja płeć?:</p>
+&lt;p>mężczyzna: &lt;input type="radio" id="mezczyzna" name="plec">&lt;/p>
+&lt;p>kobieta: &lt;input type="radio" id="kobieta" name="plec">&lt;/p>
+&lt;p>&lt;input type="button" value="Prześlij dane" onClick="przeslijDane()">&lt;/p></code></pre>
+    <br>
+    <p>Pobieranie wartości z <i>checkbox</i></p>
+    <pre><code class="language-html">&lt;script>
+    function przeslijDane(){
+        if(document.getElementById("pies").checked) console.log("pies");
+        if(document.getElementById("kot").checked) console.log("kot");
+        if(document.getElementById("chomik").checked) console.log("chomik");
+    }
+&lt;/script>
+
+&lt;p>Jakie masz zwierzę?:</p>
+&lt;p>pies: &lt;input type="checkbox" id="pies" name="zwierze">&lt;/p>
+&lt;p>kot: &lt;input type="checkbox" id="kot" name="zwierze">&lt;/p>
+&lt;p>chomik: &lt;input type="checkbox" id="chomik" name="zwierze">&lt;/p>
+&lt;p>&lt;input type="button" value="Prześlij dane" onClick="przeslijDane()">&lt;/p></code></pre>
+
+    
+
+    </article>
+    <footer></footer>
+</body>
+</html>

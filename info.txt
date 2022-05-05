@@ -28,6 +28,7 @@ SQL:
 	
 
 PHP:
+	+wprowadzenie - JAKIM ZNACZNIKIEM OTWIERAMY SKRYPT
 	+zmienne
 	+warunki 
 	+petle
@@ -39,55 +40,49 @@ PHP:
 	+fetch - foreach/while - wyjasnic tablice assocjacyjne
 
 
-
-	
-
-
 JS:
-	podpinanie pliku
-	zmienne
-	warunki 
-	petle
+	+wprowadzenie - JAKIM ZNACZNIKIEM OTWIERAMY SKRYPT
 
+	+zmienne
+	+warunki 
+	+petle
+	funkcje
 
-	pobieranie wartosci z róznych inputów
-		po id
-		po tagu
-		itd.
-	wypisywanie/dopisywanie tekstu
-	alert/console.log
-	parse int
+	+pobieranie wartosci z inputów - po id(text, radio, checkbox)
+		+parse int dla bezpieczenstwa jezeli pobieramy liczbe
 
-	
+	+zmienianie koloru strony z przycisku
+
+	+wypisywanie/dopisywanie tekstu / dodawanie tekstu do spana
 
 EGZAMIN:
 	linki do pobierania egzaminow
 	wstawic screeny z egzaminu z informacjami o funkcjach
 
-	jakas lista z wskazówkami
-		
++++
+	HTML
+		listy
+		tabele
+		radio buttony
 
-HTML
-	listy
-	tabele
-	radio buttony
+	CSS:
+		font-family
+		height
+		width
+		background-color
+		floaty
+		color (font)
+		border
+		margin
+		padding
+		text-align
+		font-size
 
-CSS:
-	font-family
-	height
-	width
-	background-color
-	floaty
-	color (font)
-	border
-	margin
-	padding
-	text-align
-	font-size
-
-	podawanie roznych kolorow (hex, rgb)
+		podawanie roznych kolorow (hex, rgb)
 
 Zapytać
 	czy w js trzeba sprawdzac inputy jezeli nie jest napisane w poleceniu - NIE, ponieważ to blad uzytkownika ze zle podal wartosci
 	czy w js trzeba/mozna pisac inputy w <form> - LEPIEJ TAK
 	czy w php trzeba dac isset zeby nie bylo "brudów" na stronie - TAK
+
+	czy w html trzeba/mozna dawac required aby skrypt wlaczal sie w dobrych momenrach *(tylko gdy sie poda wartosci)

@@ -19,9 +19,9 @@
     <header>
         <nav class="header-nav">
             <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
-            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link" style="text-decoration: underline;">JavaScript</a>
             <a href="../sql/index.html" class="light-link header-nav-link">SQL</a>
-            <a href="../php/index.html" class="light-link header-nav-link" style="text-decoration: underline;">PHP</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
             <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
         </nav>
     </header>
@@ -38,8 +38,8 @@
         <p>W części _B_ jest warunek - pętla będzie się wykonywać jeżeli warunek zwróci wartość <i>True</i></p>
         <p>W części _C_ zwiększamy lub zmienjszamy licznik zmiennej</p>
         <p>Pętla <i>for</i> może się przydać gdy np. chcemy wypisać liczby</p>
-        <pre><code class="language-php"> for($i=0; $i<10; $i++){
-    echo $i.", ";
+        <pre><code class="language-php">for(var i=10; i<20; i++){
+    console.log(i);
 }</code></pre>
         <img class="gallery-item" src="img/petle1.png" onClick="bigger('img/petle1.png');">
         <hr>
@@ -49,12 +49,12 @@
 }</code></pre>
         <p>W części _A_ jest warunek - pętla będzie się wykonywać dopóki warunek zwraca wartość <i>True</i></p>
         <p>Pętla <i>while</i> pozwala na powtórzenie bloku kodu, gdy warunek jest prawdziwy.</p>
-        <pre><code class="language-php">$i = 0;
-while($i < 10){
-    echo $i."-";
-    $i += 1;
+        <pre><code class="language-php">var i = 0;
+while(i < 10){
+    console.log(i, "-");
+    i += 1;
 }</code></pre>
-        <img class="gallery-item" src="img/petle2.png" onClick="bigger('img/petle2.png');">
+    <img class="gallery-item" src="img/petle2.png" onClick="bigger('img/petle2.png');">
     </article>
     <footer></footer>
 </body>

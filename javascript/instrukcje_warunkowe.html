@@ -19,9 +19,9 @@
     <header>
         <nav class="header-nav">
             <a href="../index.html" class="light-link header-nav-link">Strona główna</a>
-            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link" style="text-decoration: underline;">JavaScript</a>
             <a href="../sql/index.html" class="light-link header-nav-link">SQL</a>
-            <a href="../php/index.html" class="light-link header-nav-link" style="text-decoration: underline;">PHP</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
             <a href="../egzamin/index.html" class="light-link header-nav-link">Egzamin</a>
         </nav>
     </header>
@@ -31,17 +31,17 @@
         <p style="font-size: 45px; text-align: center;" id="article-header">Instrukcje warunkowe</p>
         <p>Instrukcji warunkowej używa się do podjęcia decyzji, jeżeli warunek zwróci wartość <i>True</i> (będzie prawdą) wykona się kod</p>
         <p>Składnia prostego warunku:</p>
-        <pre><code class="language-php">if($a == $b){
+        <pre><code class="language-js">if(a == b){
     // akcja
 }</code></pre>
         <p>Składnia kilku warunków:</p>
-        <pre><code class="language-php">if($a == 1){
+        <pre><code class="language-js">if(a == 1){
     // akcja1
 }
-else if($a == 2){
+else if(a == 3){
     // akcja2
 }
-else if($a == 3){
+else if(a == 3){
     // akcja3
 }
 else{
@@ -62,30 +62,30 @@ else{
             <li>>= - większe lub równe</li><br>
         </ul>
         <p>Przykład warunków: </p>
-        <pre><code class="language-php">if($a == 1){
-    echo "zmienna a jest równa 1";
+        <pre><code class="language-js">if(a == 1){
+    console.log("zmienna a jest równa 1");
 }
-else if($a == 2){
-    echo "zmienna a jest równa 2";
+else if(a == 2){
+    console.log("zmienna a jest równa 2");
 }
 else{
-    echo "zmienna a nie jest równa ani 1, ani 2";
+    console.log("zmienna a nie jest równa ani 1, ani 2");
 }</code></pre>
         <p>
             Możemy łączyć wiele warunków w jeden.<br><br>
-            AND, && - i<br>
-            OR, || - lub<br>
+            && - i<br>
+            || - lub<br>
         </p>
-<pre><code class="language-php">if ($a > 0 && $a < 10){
-        echo "zmienna a jest większa od 0 i mniejsza od 10";
-    }</code></pre>
+<pre><code class="language-js">if (a > 0 && a < 10){
+    console.log("zmienna a jest większa od 0 i mniejsza od 10");
+}</code></pre>
 
-<pre><code class="language-php">if ($a == 4 OR $a == 65){
-        echo "zmienna a równa 4 lub 65";
-    }</code></pre>
+<pre><code class="language-js">if (a == 4 || a == 65){
+    console.log("zmienna a równa 4 lub 65");
+}</code></pre>
         <p>Jeżeli nasz kod jest jedno liniowy nie musimy pisać klamr { }.</p>
-        <pre><code class="language-php">if($a > $b) echo "zmienna a jest większa od zmiennej b";
-else if($a < $b)echo "zmienna a jest mniejsza od zmiennej b";</code></pre>
+        <pre><code class="language-js">if(a > b) console.log("zmienna a jest większa od zmiennej b");
+else if(a < b)echo console.log("zmienna a jest mniejsza od zmiennej b");</code></pre>
 
     </article>
     <footer></footer>

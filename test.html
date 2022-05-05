@@ -1,0 +1,38 @@
+<!-- <script>
+    function przeslijDane(){
+        var imie = document.getElementById("imie").value;
+        var wiek = document.getElementById("wiek").value;
+        wiek = parseInt(wiek);
+
+        console.log("Witaj ",imie,", masz ", wiek, "lat.");
+    }
+</script>
+Podaj swoje imie: <input type="text" id="imie"><br><br>
+Podaj swój wiek: <input type="number" id="wiek"><br><br>
+<input type="button" value="Prześlij dane" onClick="przeslijDane()"> -->
+
+<!-- <script>
+    function przeslijDane(){
+        if(document.getElementById("pies").checked) console.log("pies");
+        if(document.getElementById("kot").checked) console.log("kot");
+        if(document.getElementById("chomik").checked) console.log("chomik");
+    }
+</script>
+
+<p>Jakie masz zwierzę?:</p>
+<p>pies: <input type="checkbox" id="pies" name="zwierze"></p>
+<p>kot: <input type="checkbox" id="kot" name="zwierze"></p>
+<p>chomik: <input type="checkbox" id="chomik" name="zwierze"></p>
+<input type="button" value="Prześlij dane" onClick="przeslijDane()"> -->
+
+<script>
+    function zmienWartosc(){
+        var tekst = document.getElementById("tekst").value;
+        document.getElementById("div1").innerHTML += tekst;
+    }
+</script>
+
+<input type="text" id="tekst">
+<input type="button" value="Zmień wartość" onClick="zmienWartosc()">
+<br><br>
+<div id="div1"></div>
