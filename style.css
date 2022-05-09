@@ -38,12 +38,35 @@ article > p{
     .header-nav-link{
         width: 40%;
         margin: 15px 26.5% !important;
-        float: left;
         font-size: 30px;
+        float: left;
     }
     .header-nav{
         height: 280px;
+        /* font-size: 150% !important; */
     }
+    .left-nav{
+        width: 300px !important;
+        font-size: 27px !important;
+    }
+    .left-nav-link{
+        font-size: 23px !important;
+    }
+    .left-nav-link-a{
+        padding: 10px 8px !important;
+    }
+    article{ 
+        
+        width: calc(100% - 300px);
+    }
+    article > *{
+        font-size: 28px !important;
+        line-height: 48px;
+    }
+    #article-header{
+        font-size: 60px !important;
+    }
+
 }
 .header-nav-link{
     text-decoration: none;
