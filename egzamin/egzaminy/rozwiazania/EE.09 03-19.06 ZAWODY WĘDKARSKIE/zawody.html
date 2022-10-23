@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wędkowanie - moje hobby</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<body>
+    <header>
+        <div id="lewy">
+            <img alt="zawody wędkarskie" src="zawody.jpg">
+        </div>
+        <div id="srodkowy">
+            <h1>Zawody Wędkarskie</h1>
+        </div>
+        <div id="prawy">
+            <a href="kwerendy.txt">Pobierz plik</a>
+        </div>
+    </header>
+    <article>
+        <h2>Dodaj nowe zawody wędkarskie</h2>
+        <form action="zgloszenie.php" method="POST">
+            <p>Łowisko: <input type="number" name="lowisko"></p>
+            <p>Data (rrrr-mm-dd): <input type="text" name="data"></p>
+            <p>Sędzia: <input type="text" name="sedzia"></p>
+            <p>
+                <input type="reset" value="WYCZYŚĆ">
+                <input type="submit" value="DODAJ">
+            </p>
+            
+        </form>
+        <h2>Łowiska</h2>
+        <ol>
+            <li>Zalew Węgrowski</li>
+            <li>Zbiornik Bukówka</ul>
+            <li>Jeziorko Bartbetowskie</li>
+            <li>Warta-Obrzycko</li>
+        </ol>
+    </article>
+    <footer>
+        <p>Stronę wykonał: XXX</p>
+    </footer>
+</body>
+</html>
