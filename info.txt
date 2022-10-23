@@ -65,6 +65,8 @@ EGZAMIN:
 		tabele
 		radio buttony
 
+		--- przycisk resetujacy formularz
+
 	CSS:
 		font-family
 		height
