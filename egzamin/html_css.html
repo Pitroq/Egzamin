@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../left-nav.js"></script>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('.left-nav').load("nav-include.html");
+        });
+    </script>
+</head>
+<body onLoad="check_nav();">
+    <header>
+        <nav class="header-nav">
+            <a href="../index.html" class="light-link header-nav-link" download>Strona główna</a>
+            <a href="../javascript/index.html" class="light-link header-nav-link">JavaScript</a>
+            <a href="../sql/index.html" class="light-link header-nav-link">SQL</a>
+            <a href="../php/index.html" class="light-link header-nav-link">PHP</a>
+            <a href="../egzamin/index.html" class="light-link header-nav-link" style="text-decoration: underline;">Egzamin</a>
+        </nav>
+    </header>
+
+    <nav class="left-nav"></nav>
+    <article>
+        <p style="text-align: center; font-size: 30px;" id="article-header">HTML / CSS</p>
+        <p>Lista co pojawiało się we wcześniejszych egzaminach w <i>HTML</i> i <i>CSS</i></p>
+        <br>
+        <p>HTML</p>
+        <ul>
+            <li>Input type</li><br>
+            <ul>
+                <li><a class="dark-link" href="html_css/button.html">button</a></li><br>
+                <li><a class="dark-link" href="html_css/text.html">text</a></li><br>
+                <li><a class="dark-link" href="html_css/password.html">password</a></li><br>
+                <li><a class="dark-link" href="html_css/number.html">number</a></li><br>
+                <li><a class="dark-link" href="html_css/radio.html">radio</a></li><br>
+                <li><a class="dark-link" href="html_css/checkbox.html">checkbox</a></li><br>
+                <li><a class="dark-link" href="html_css/reset.html">reset</a></li><br>
+            </ul>
+            <li><a class="dark-link" href="html_css/select_option.html">lista rozwijana (select, option)</a></li><br>
+            <li><a class="dark-link" href="html_css/list.html">listy</a></li><br>
+            <li><a class="dark-link" href="html_css/table.html">tabele</a></li><br>
+    
+        </ul>
+        <p>CSS</p>
+        <ul>
+            <li><a class="dark-link" href="html_css/font_family.html">font-family</a></li><br>
+            <li><a class="dark-link" href="html_css/background_color.html">background-color</a></li><br>
+            <li><a class="dark-link" href="html_css/color.html">color (czcionki)</a></li><br>
+            <li><a class="dark-link" href="html_css/text_align.html">text-align</a></li><br>
+            <li><a class="dark-link" href="html_css/font_size.html">font-size</a></li><br>
+
+            <li><a class="dark-link" href="html_css/height_width.html">height / width</a></li><br>  
+            
+            <li><a class="dark-link" href="html_css/margin.html">margin</a></li><br>
+            <li><a class="dark-link" href="html_css/padding.html">padding</a></li><br>
+            <li><a class="dark-link" href="html_css/border.html">border</a></li><br>
+
+            <li><a class="dark-link" href="html_css/float.html">float</a></li><br>
+            
+            <li><a class="dark-link" >kolory - hex/rgb/słownie</a></li><br>
+            <li>pseudoklasy</li><br>
+            <ul>
+                <li><a class="dark-link" >:hover</a></li><br>
+                <li><a class="dark-link" >:focus</a></li><br>
+                <li><a class="dark-link" >:visited (odwiedzony link)</a></li><br>
+                <li><a class="dark-link" >:checked</a></li><br>
+            </ul>
+        </ul>
+    </article>
+    <footer></footer>
+
+</body>
+</html>

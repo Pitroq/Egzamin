@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <script>
+        function dane(){
+            var checkbox1 = document.getElementById("xyz1").checked;
+            var checkbox2 = document.getElementById("xyz2").checked;
+            alert("checkbox1: " + checkbox1);
+            alert("checkbox2: " + checkbox2);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="checkbox" id="xyz1"> checkbox1<br>
+        <input type="checkbox" id="xyz2"> checkbox2<br>
+
+        <input type="button" value="Pobierz dane" onClick="dane()">
+    </form>
+
+    <p style="font-size: 30px;">Kod źródłowy: Ctrl+U</p>
+</body>
+</html>

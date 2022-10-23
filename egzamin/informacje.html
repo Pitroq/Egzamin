@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../style.css">
     <script type="text/javascript" src="../left-nav.js"></script>
     <script type="text/javascript" src="../jquery.min.js"></script>
+    <script type="text/javascript" src="../gallery.js"></script>
     <script>
         $(document).ready(function(){
            $('.left-nav').load("nav-include.html");
@@ -25,38 +26,10 @@
 
     <nav class="left-nav"></nav>
     <article>
-        <p style="text-align: center; font-size: 30px;" id="article-header">HTML / CSS</p>
-        <p>Lista co pojawiało się we wcześniejszych egzaminach w <i>HTML</i> i <i>CSS</i></p>
-        <br>
-        <p>HTML</p>
-        <ul>
-            <li>Input</li><br>
-            <ul>
-                <li>Radio</li><br>
-                <li>Number</li><br>
-            </ul>
-            <li>Listy</li><br>
-            <li>Tabele</li><br>
-            <ul>
-                <li>colspan</li><br>
-                <li>rowspan</li><br>
-            </ul>
-        </ul>
-        <p>CSS</p>
-        <ul>
-            <li>font-family</li><br>
-            <li>height</li><br>
-            <li>width</li><br>
-            <li>background-color</li><br>
-            <li>float (pozycjonowanie divów)</li><br>
-            <li>color (czcionki)</li><br>
-            <li>border</li><br>
-            <li>margin</li><br>
-            <li>padding</li><br>
-            <li>text-align</li><br>
-            <li>font-size</li><br>
-            <li>kolory - hex/rgb/słownie</li><br>
-        </ul>
+        <p style="text-align: center; font-size: 30px;" id="article-header">Informacje na dole egzaminu</p>
+        <img class="gallery-item" src="info_js.png" onClick="bigger('info_js.png');">
+        <img class="gallery-item" src="info_php.png" onClick="bigger('info_php.png');">
+        
     </article>
     <footer></footer>
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egzamin</title>
+    <script>
+        function dane(){
+            var radio1 = document.getElementById("xyz1").checked;
+            var radio2 = document.getElementById("xyz2").checked;
+            var radio3 = document.getElementById("xyz3").checked;
+
+            alert("radio1: " + radio1);
+            alert("radio2: " + radio2);
+            alert("radio3: " + radio2);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input id="xyz1" name="check1" type="radio"> radio1<br>
+        <input id="xyz2" name="check1" type="radio"> radio2<br>
+        <input id="xyz3" name="check1" type="radio"> radio3<br>
+        <input type="button" value="Pobierz dane" onClick="dane()">
+    </form>
+
+    <p style="font-size: 30px;">Kod źródłowy: Ctrl+U</p>
+</body>
+</html>
